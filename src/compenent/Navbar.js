@@ -1,5 +1,8 @@
 import React from 'react';
 import Logo from  '../Assets/Logo.jpg';
+import { Link } from 'react-router-dom';
+import '../style/header.css'
+
 
   function Header() {
     return (
@@ -12,7 +15,7 @@ import Logo from  '../Assets/Logo.jpg';
           <li><a href="#home">Home</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#about">About us</a></li>
-          <li><a href="#contact">Contact us</a></li>
+          <li><Link to="/ContactPage">Contact us</Link></li>
         </ul>
       </nav>
     </header>

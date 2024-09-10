@@ -1,0 +1,44 @@
+/* Style for the header */
+header {
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Padding for spacing */
+  }
+  
+  /* Style for the navigation bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Max width for the navbar */
+    margin: 0 auto; /* Center the navbar */
+  }
+  
+  /* Style for the logo */
+  .navbar-logo img {
+    height: 50px; /* Set a fixed height for the logo */
+  }
+  
+  /* Style for the navigation links */
+  .navbar-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display items in a row */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Style for each navigation link */
+  .navbar-links li {
+    margin: 0 15px; /* Spacing between links */
+  }
+  
+  .navbar-links a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .navbar-links a:hover {
+    color: #f39c12; /* Change color on hover */
+  }
+  

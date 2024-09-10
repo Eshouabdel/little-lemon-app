@@ -1,0 +1,211 @@
+/* Style for the main content */
+main {
+    padding: 20px;
+  }
+  
+  /* Style for intro section */
+  #intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+  }
+  
+  #intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #intro button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #intro button:hover {
+    background-color: #555;
+  }
+  
+  #intro img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  /* Style for book a table section */
+  #book_a_table {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #book_a_table h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  #book_a_table h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  #book_a_table p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #book_a_table button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #book_a_table button:hover {
+    background-color: #555;
+  }
+  
+  /* Style for menu highlight section */
+  #menu-highlight {
+    padding: 50px 20px;
+    background: #f9f9f9;
+  }
+  
+  #menu-highlight h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .menu-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .menu-cards article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: calc(25% - 20px);
+  }
+  
+  .menu-cards h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .menu-cards button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-cards button:hover {
+    background-color: #555;
+  }
+  
+  /* Style for best place section */
+  #best_place {
+    padding: 50px 20px;
+  }
+  
+  .restaurant-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-image, .secondary-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 10px;
+  }
+  
+  .content-container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #best_place button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #best_place button:hover {
+    background-color: #555;
+  }
+  
+  /* Style for most popular section */
+  #most-popular {
+    padding: 50px 20px;
+  }
+  
+  #most-popular h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-items article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+  }
+  
+  .menu-items h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .menu-items p {
+    font-size: 1.2rem;
+  }
+  

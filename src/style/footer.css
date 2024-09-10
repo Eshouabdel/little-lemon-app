@@ -1,0 +1,38 @@
+/* Style for the footer */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  footer address {
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  footer button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f39c12; /* Highlight color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  footer button:hover {
+    background-color: #e67e22; /* Darker shade on hover */
+  }
+  
